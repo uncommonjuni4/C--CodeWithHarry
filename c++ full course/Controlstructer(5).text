@@ -1,0 +1,14 @@
+There are three types of control structurre in c++
+
+1-------sequence structure
+2-------selection structure
+3-------loop structure
+
+1-----sequence structure:
+                          Mean code run from first line and move so on to next lines 
+                        
+2------selection structure:
+                           mean code flow on the base of condtions (if , else if , if else if , switch)
+
+3------Loop structure :
+                    base on irarattion mean mean same word done again and again   (for, do while , while)                       
