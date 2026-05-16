@@ -1,0 +1,52 @@
+1. struct (Structure)
+What it is: A container used to group different variables under one name.
+
+Memory: Every single member inside gets its own independent memory space.
+
+Usage: You can use all of its members at the same time.
+
+Best for: Representing complex objects with multiple attributes (e.g., a Student with an ID, age, and grade).
+
+
+
+2. union (Union)
+What it is: A container used to hold different variables, but only one at a time.
+
+Memory: All members share the exact same memory location. Its total size is only as big as its largest member.
+
+Usage: You can only use one member at a time. Writing to a new member overwrites the previous data.
+
+Best for: Saving memory when a variable only needs to hold one of several options (e.g., a data packet that is either an integer ID or a text code, but never both).
+
+
+
+3. enum (Enumeration)
+What it is: A custom type consisting of a set of named integer constants.
+
+Memory: It doesn't hold multiple variables; an enum variable just holds a single integer value from your predefined list.
+
+Usage: You don't use the dot (.) operator. You just assign one of the named constants directly to the enum variable.
+
+Best for: Making code readable by replacing confusing "magic numbers" with meaningful words (e.g., days of the week, game states, or error levels).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
